@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Селекторы</title>
+    <style>
+        h1{
+            color: brown;
+ }
+        #sell{
+            background-color: cyan;
+            color: deeppink;
+        }
+        .dsds{
+            text-decoration-line: overline;
+            color: darkblue;
+        }
+        .tt{
+    background-color: cyan;
+    color: darkorchid;
+
+}
+        .td{
+    font-size: medium;
+}
+        h4 p {
+            text-decoration-line: underline;
+            color: darkgreen;
+        }
+
+
+    </style>
 </head>
 <body>
-    <p>fff</p>
+    <h1>1 Селектор это селектор по тегам, задает свойства всем тегам где есть h1</h1>
+<H2 id="sell">Селектор ID иммет приоритенность над H1</H2>
+<h3 class="dsds">Селоктор ClASS можно вписать всем</h3>
+<p1 class="tt td">Можно использовать несколько классов</p1>
+<h4><p>Отображает только вложенный тег</p></h4>    
 </body>
 </html>
